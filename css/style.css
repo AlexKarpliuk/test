@@ -3,7 +3,6 @@ html{
    background-color: rgba(25, 19, 5, 0.639);
    font-family: Oswald;
 }
-
 .weather {
    max-width: 450px;
    height: 200px;
@@ -13,7 +12,15 @@ html{
    margin: 150px auto;
    box-shadow: 0 0 10px; color: rgba(0, 0, 0, 0.5);
 }
+/* -------------------------------------- */
+.textcolor{
+   color: rgb(63, 65, 83);
+}
+.colorCityTemp{
+   color: rgba(206, 118, 36, 0.815);
+}
 
+/* ---------------------------------------- */
 .weather__header {
    display: flex;
 }
@@ -23,7 +30,7 @@ html{
 
 
 .weather__city {
-   font-size: 40px;
+   font-size: 50px;
    font-weight: 500;
    margin-bottom: 10px;
 }

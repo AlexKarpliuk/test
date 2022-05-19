@@ -32,10 +32,10 @@ function getWeather(data){
    const template = 
    `<div class="weather__header">
       <div class="weather__main">
-         <div class="weather__city">${weatherCity}</div>
-         <div class="weather__status">${weatherStatus}</div>
-         <div class="weather__temp">${weatherTemp}</div>
-         <div class="weather__feels">Feels like ${weatherFeels}</div>
+         <div class="weather__city colorCityTemp">${weatherCity}</div>
+         <div class="weather__status textcolor">${weatherStatus}</div>
+         <div class="weather__temp colorCityTemp">${weatherTemp}</div>
+         <div class="weather__feels textcolor">Feels like ${weatherFeels}</div>
       </div>
       <div class="weather__icon">
          <img src="http://openweathermap.org/img/w/${weatherIcon}.png" alt="${weatherIcon}">
